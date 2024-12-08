@@ -1,0 +1,161 @@
+/* CSS DOCUMENT */
+
+/* Imports ****************************************/
+/* Fonts */
+@import url("https://use.typekit.net/sit5zxq.css");
+
+/* Defaults ***************************************/
+html {
+  font-family: "puffin-display-soft", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  background-color: #f9f5f4;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+}
+
+/* Structure *************************************/
+h1 {
+  font-family: mighty-slab, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 9em;
+  color: #d94b2b;
+  margin: 0;
+}
+
+h2 {
+  font-family: parity-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #72a68e;
+  font-size: 3em;
+  margin: -40px 0 0 0;
+}
+
+.intro {
+  color: #f23568;
+  font-size: 2em;
+  line-height: 45px;
+  margin-top: 80px;
+}
+
+/* Wrapper ***************************************/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+h3 {
+  font-family: trilby, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5em;
+  color: #6c95b7;
+  margin: 0;
+}
+
+.flex-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  border-radius: 20px;
+  height: 50px;
+  font-size: 1.9em;
+}
+
+.self-affirmation {
+  border: 3px solid #f28627;
+  color: #f28627;
+  font-weight: 600;
+}
+
+.self-affirmation:hover {
+  border: 3px solid #f2862700;
+  background-color: #f28627;
+  color: #f9f5f4;
+}
+
+.relationships {
+  font-family: cortado, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  border: 3px solid #f2bbbb;
+  color: #f2bbbb;
+}
+
+.relationships:hover {
+  border: 3px solid #f2bbbb00;
+  background-color: #f2bbbb;
+  color: #f9f5f4;
+}
+
+.encouragement {
+  font-family: trilby, serif;
+  font-weight: 700;
+  font-style: normal;
+  border: 3px solid #f2c12e;
+  color: #f2c12e;
+}
+
+.encouragement:hover {
+  border: 3px solid #f2c12e00;
+  background-color: #f2c12e;
+  color: #f9f5f4;
+}
+
+div:hover {
+  cursor: pointer;
+}
+
+/* Button Wrapper ********************************/
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+button {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #a7d2d6;
+  color: white;
+  font-family: trilby, serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.quote {
+  margin: 0;
+  font-family: edding-780, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
